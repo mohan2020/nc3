@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="75px" viewBox="0 0 100 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Plus</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Plus" fill-rule="nonzero">
+            <g id="Group">
+                <polygon id="Shape" fill="#EA506C" points="62.5 31.25 100 31.25 100 43.75 62.5 43.75"></polygon>
+                <polygon id="Shape" fill="#7ED321" points="25 18.75 12.5 18.75 12.5 31.25 0 31.25 0 43.75 12.5 43.75 12.5 56.25 25 56.25 25 43.75 37.5 43.75 37.5 31.25 25 31.25"></polygon>
+                <polygon id="Shape" fill="#444444" points="37.5 0 56.25 75 62.5 75 43.75 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
