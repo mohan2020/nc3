@@ -12,19 +12,22 @@
           <form name="contact" method="POST" netlify>
             <div class="columns is-multiline">
               <div class="column is-6">
-                <input class="input is-medium" type="text" placeholder="Enter your name">
+                <input class="input is-medium" type="text" name="Name" required placeholder="Enter your name">
               </div>
               <div class="column is-6">
-                <input class="input is-medium" type="email" placeholder="Enter your email address">
+                <input class="input is-medium" type="email" name="Email" required placeholder="Enter your email address">
               </div>
               <div class="column is-6">
-                <input class="input is-medium" type="text" placeholder="Your organization">
+                <input class="input is-medium" type="text" name="Organization" required placeholder="Your organization">
               </div>
               <div class="column is-6">
-                <input class="input is-medium" type="text" placeholder="Your role">
+                <input class="input is-medium" type="text" name="Role" placeholder="Your role">
               </div>
               <div class="column is-12">
-                <textarea class="textarea" rows="10" placeholder="We'll reach out to schedule a meeting. Please provide any other specifics that could help us prepare for that. Specfic questions, concerns etc. "></textarea>
+                <input class="input is-medium" type="tel" name="Telephone" placeholder="A number to reach you at">
+              </div>
+              <div class="column is-12">
+                <textarea class="textarea" name="message" rows="10" placeholder="We'll reach out to schedule a meeting. Please provide any other specifics that could help us prepare for that. Specfic questions, concerns etc. "></textarea>
               </div>
               <div class="form-footer has-text-centered mt-10">
                 <button class="button cta is-large primary-btn raised is-clear">Send Message</button>
