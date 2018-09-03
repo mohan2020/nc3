@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="95px" viewBox="0 0 63 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Lock, Open, Unlock</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 98.9583333 98.9583333 98.9583333 98.9583333 0 0 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Lock,-Open,-Unlock" transform="translate(-18.000000, -2.000000)">
+            <g id="svg2">
+                <g id="g10" transform="translate(49.479167, 49.479167) scale(-1, 1) rotate(-180.000000) translate(-49.479167, -49.479167) ">
+                    <g id="g12">
+                        <g id="g14-Clipped">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="path18"></g>
+                            <g id="g14" mask="url(#mask-2)">
+                                <g transform="translate(18.229167, 2.604167)">
+                                    <g id="g20" transform="translate(5.208333, 41.665365)">
+                                        <path d="M26.0416667,52.0833333 C14.03125,52.0833333 3.95052083,43.9427083 0.940104167,32.8880208 L10.9791667,30.1484375 C12.7864583,36.7838542 18.8359375,41.6666667 26.0416667,41.6666667 C34.6692708,41.6666667 41.6666667,34.6692708 41.6666667,26.0416667 L41.6666667,0 L52.0833333,0 L52.0833333,26.0416667 C52.0833333,40.4244792 40.4244792,52.0833333 26.0416667,52.0833333" id="path22" fill="#BCBEC0" fill-rule="nonzero"></path>
+                                    </g>
+                                    <g id="g24">
+                                        <path d="M62.5,10.4166667 C62.5,4.6640625 57.8359375,0 52.0833333,0 L10.4166667,0 C4.6640625,0 0,4.6640625 0,10.4166667 L0,36.4583333 C0,42.2109375 4.6640625,46.875 10.4166667,46.875 L52.0833333,46.875 C57.8359375,46.875 62.5,42.2109375 62.5,36.4583333 L62.5,10.4166667 Z" id="path26" fill="#FFAC33" fill-rule="nonzero"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Next</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Next" fill-rule="nonzero">
+            <g id="object">
+                <circle id="Oval" fill="#3EBBDD" cx="256" cy="256" r="247.466667"></circle>
+                <path d="M256,512 C114.8416,512 0,397.1584 0,256 C0,114.8416 114.8416,0 256,0 C397.1584,0 512,114.8416 512,256 C512,397.1584 397.1584,512 256,512 Z M256,17.0666667 C124.253867,17.0666667 17.0666667,124.253867 17.0666667,256 C17.0666667,387.746133 124.253867,494.933333 256,494.933333 C387.746133,494.933333 494.933333,387.746133 494.933333,256 C494.933333,124.253867 387.746133,17.0666667 256,17.0666667 Z" id="Shape" fill="#000000"></path>
+                <polygon id="Shape" fill="#FFFFFF" points="238.933333 256 174.933333 292.949333 110.933333 329.898667 110.933333 182.101333 174.933333 219.050667"></polygon>
+                <path d="M102.4,344.6784 L102.4,167.3216 L256,256 L102.4,344.6784 Z M119.466667,196.881067 L119.466667,315.118933 L221.866667,256 L119.466667,196.881067 Z" id="Shape" fill="#000000"></path>
+                <g id="Group" transform="translate(290.133333, 162.133333)">
+                    <polygon id="Shape" fill="#FFFFFF" points="136.533333 93.8666667 72.5333333 130.816 8.53333333 167.765333 8.53333333 19.968 72.5333333 56.9173333"></polygon>
+                    <path d="M0,182.545067 L0,5.18826667 L153.6,93.8666667 L0,182.545067 Z M17.0666667,34.7477333 L17.0666667,152.9856 L119.466667,93.8666667 L17.0666667,34.7477333 Z" id="Shape" fill="#000000"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

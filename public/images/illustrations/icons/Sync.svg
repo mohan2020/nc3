@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="83px" viewBox="0 0 100 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow, Sync, Synchronize, Way, Direction, Reload, Refresh</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0.25781251%" y1="49.7500002%" x2="101.257813%" y2="49.7500002%" id="linearGradient-1">
+            <stop stop-color="#3023AE" offset="0%"></stop>
+            <stop stop-color="#53A0FD" offset="47.5247532%"></stop>
+            <stop stop-color="#B4EC51" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Arrow,-Sync,-Synchronize,-Way,-Direction,-Reload,-Refresh" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="svg3771">
+                <g id="layer1" transform="translate(0.000000, 0.031043)">
+                    <g id="g6195-3" transform="translate(0.071018, 0.180330)">
+                        <path d="M47.4490367,0.117706783 C34.5790148,0.978509117 22.7151296,8.02102991 15.708211,18.9603773 L28.667114,22.4371349 C35.5427649,14.4066521 46.479187,10.5308631 57.2958561,13.4291466 C66.9758677,16.0229438 73.9750683,23.3723161 76.7342417,32.3326273 L68.4920749,32.3326273 L84.0524931,47.8930455 L99.6129113,32.3326273 L89.6323345,32.3326273 C86.5360603,17.8135123 75.7188933,5.47951568 60.5173606,1.40629613 C56.1455055,0.234845611 51.739044,-0.169227328 47.4490367,0.117706783 Z M15.5866531,32.3326273 L0.0262348651,47.8930455 L9.87305422,47.8930455 C12.4408967,63.1769861 23.4738556,76.3800632 39.2919543,80.6185344 C56.7795614,85.3043365 74.7250182,77.638901 84.0646302,63.0523161 L71.1179266,59.5876956 C64.245699,67.6190498 53.3301901,71.4939674 42.5134588,68.5956839 C32.1964036,65.83122 24.9268252,57.658266 22.5888412,47.8930455 L31.1470712,47.8930455 L15.5866531,32.3326273 Z" id="ellipse6174-4"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
