@@ -3,8 +3,8 @@ $(document).ready(function(){
     //Preloader
     $(window).on('load', function() { // makes sure the whole site is loaded 
         $('#status').fadeOut(); // will first fade out the loading animation 
-        $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
-        $('body').delay(350).css({'overflow':'visible'});
+        $('#preloader').delay(100).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+        $('body').delay(150).css({'overflow':'visible'});
     })
 
     //Mobile menu toggle
@@ -61,7 +61,7 @@ $(document).ready(function(){
     }
 
     //Init feather icons
-    feather.replace();
+    // feather.replace();
 
     //reveal elements on scroll so animations trigger the right way
     var $window           = $(window),
