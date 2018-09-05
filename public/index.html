@@ -7,9 +7,9 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>The Nudge Collaborative</title>
     
-<link rel="icon" type="image/png" href="/images/favicon.png" />
+<link rel="icon" type="image/png" href="/images/favicon.ico" />
 <link href="https://fonts.googleapis.com/css?family=Open&#43;Sans:400,600" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="/css/style.min.91bb2409bcaf316abe0e838673c3eb99cbbb181cf727bdd98abc05d513009f7a.css" integrity="sha256-kbskCbyvMWq&#43;DoOGc8Prmcu7GBz3J73ZirwF1RMAn3o=">
+<link rel="stylesheet" type="text/css" href="/css/style.min.407bae3e61cfbe03dc64bbaab0c39baf02756a9feaf935620609cc5af4b80f4c.css" integrity="sha256-QHuuPmHPvgPcZLuqsMObrwJ1ap/q&#43;TViBgnMWvS4D0w=">
 <link rel="stylesheet" type="text/css" href="/css/icons.css">
   </head>
   <body>
@@ -20,10 +20,100 @@
 
     
     <section class="hero is-fullheight is-default is-bold">
-
-
   
-<div class="hero-body" style="background-color: #0984e3">
+<nav class="navbar is-fresh is-transparent no-shadow" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+
+
+      <a class="navbar-item is-hidden-desktop is-hidden-tablet">
+        <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+          <svg width="1000px" height="1000px">
+            <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+            <path class="path2" d="M 300 500 L 700 500"></path>
+            <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+          </svg>
+          <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+        </div>
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+      <div id="navbar-menu" class="navbar-menu is-static">
+
+        <div class="navbar-start">
+
+        </div>
+
+        <div class="navbar-end">
+          <a href="/" class="navbar-item is-secondary">
+            Features
+          </a>
+          <a href="/" class="navbar-item is-secondary">
+            Pricing
+          </a>
+          <a href="/" class="navbar-item is-secondary">
+            Log in
+          </a>
+          <a href="/" class="navbar-item">
+            <span class="button signup-button rounded secondary-btn raised">
+              Join Us
+            </span>
+          </a>
+        </div>
+      </div>
+  </div>
+</nav>
+  
+<nav id="navbar-clone" class="navbar is-fresh is-transparent" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+
+
+      <a class="navbar-item is-hidden-desktop is-hidden-tablet">
+        <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
+          <svg width="1000px" height="1000px">
+            <path class="path1" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
+            <path class="path2" d="M 300 500 L 700 500"></path>
+            <path class="path3" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
+          </svg>
+          <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
+        </div>
+      </a>
+
+
+    </div>
+
+    <div id="cloned-navbar-menu" class="navbar-menu is-fixed" >
+
+
+
+      <div class="navbar-end">
+        <a href="/" class="navbar-item is-secondary">
+          Features
+        </a>
+        <a href="/" class="navbar-item is-secondary">
+          Pricing
+        </a>
+        <a href="/" class="navbar-item is-secondary">
+          Log in
+        </a>
+        <a href="/" class="navbar-item">
+          <span class="button signup-button rounded secondary-btn raised">
+            Join Us
+          </span>
+        </a>
+      </div>
+    </div>
+</div>
+</nav>
+  
+<div class="hero-body" style="background-color: #48dbfb">
   <div class="container">
     <div class="columns is-vcentered">
       <div class="column is-5 is-offset-1 landing-caption">
@@ -35,9 +125,17 @@
           Learn. Share. Improve.
         </h2>
         
-
+        <p>
+          <a class="button cta rounded raised" href="#test">
+            Join Us
+          </a>
+        </p>
       </div>
-
+      <div class="column is-5 is-offset-1">
+        <figure class="image is-4by3">
+          <img src="/images/illustrations/logos.svg" alt="Description">
+        </figure>
+      </div>
     </div>
   </div>
 </div>
@@ -104,7 +202,7 @@
               <h4>Cancer Screening</h4>
             </div>
             <div class="card-icon">
-                <img src="/images/illustrations/icons/Cancer.svg">
+                <img src="/images/illustrations/icons/Colon.svg">
             </div>
             <div class="card-text">
                 <p>Pre-defined Orders <br> Opt-out <br> Peer comparison</p>
@@ -165,7 +263,7 @@
               <p>
                 <span class="icon-box-title">Showing the ROI</span>
 
-                <span class="icon-box-text">Implementing a Nudge is more than just an idea. It requires buy-in from multiple stakeholders (executives, division chiefs, physicians, MAs, IT resources, ...). It will need also need a value proposition and more. What if there were templates you could use as a starting point?</span>
+                <span class="icon-box-text">Implementing a Nudge is more than just pitching an idea. It requires buy-in from multiple stakeholders (executives, clinical leaders, IT resources, ...). It will also need a value proposition and more. What if the Collaborative could act as your testbed?</span>
               </p>
             </div>
           </div>
@@ -179,7 +277,7 @@
           <div class="media-content mt-50">
             <div class="content">
               <p>
-                <span class="icon-box-title">Behavioral Economic options</span>
+                <span class="icon-box-title">Behavioral Economic Options</span>
 
                 <span class="icon-box-text">Opt-in? Opt-out? Peer messaging? Incentives? BE can be challenging. What if we could learn not only from each other but also the leaders in the field?</span>
               </p>
@@ -195,9 +293,9 @@
           <div class="media-content mt-50">
             <div class="content">
               <p>
-                <span class="icon-box-title">Inclusion / Exclusion criteria</span>
+                <span class="icon-box-title">Inclusion / Exclusion Criteria</span>
 
-                <span class="icon-box-text">Nudges have to targeted to be effective. Understanding these criteria and coding it can take time (It took the Nudge Unit at Penn almmost a year in some cases). What if these learnings and the actual code developed was available to you as a starting point?</span>
+                <span class="icon-box-text">Nudges have to be targeted to be effective. Understanding these criteria and coding them can take time. It took the Nudge Unit at Penn almmost a year in some cases. What if you could start where Penn left off (and later pay it forward)?</span>
               </p>
             </div>
           </div>
@@ -213,7 +311,7 @@
               <p>
                 <span class="icon-box-title">Data Extraction and Analysis</span>
 
-                <span class="icon-box-text">Starting from a blank screen can be daunting. What if, for nudges already researched, you had a working model? Now you can tweak that to fit your patients and physicians and your ask to IT and others is based on what has already worked.</span>
+                <span class="icon-box-text">What’s the right analysis plan and who can execute it?  What if there were template approaches or ways to hand off your data for others to analyze.</span>
               </p>
             </div>
           </div>
@@ -236,13 +334,13 @@
         <div class="column is-one-third">
           <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
             <div class="card-title">
-              <h4>Open for Research</h4>
+              <h4>Membership Based</h4>
             </div>
             <div class="card-icon">
-                <img src="/images/illustrations/icons/Think.svg">
+                <img src="/images/illustrations/icons/Add.svg">
             </div>
             <div class="card-text">
-                <p>We cannot progess without research. All (de-identified) data is available to credentialled researchers.</p>
+                <p>Similar to registries, this is not a commercial effort.</p>
             </div>
 
           </div>
@@ -250,7 +348,7 @@
         <div class="column is-one-third">
           <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
             <div class="card-title">
-              <h4>Community</h4>
+              <h4>Community Oriented</h4>
             </div>
             <div class="card-icon">
                 <img src="/images/illustrations/icons/Network.svg">
@@ -264,13 +362,13 @@
         <div class="column is-one-third">
           <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
             <div class="card-title">
-              <h4>Seeded</h4>
+              <h4>Open for Research</h4>
             </div>
             <div class="card-icon">
-                <img src="/images/illustrations/icons/Nature.svg">
+                <img src="/images/illustrations/icons/Think.svg">
             </div>
             <div class="card-text">
-                <p>In the spirit of the Collaborative, the six Nudges above will be offered to the membership.</p>
+                <p>We cannot progess without research. All (de-identified) data is available to credentialled researchers.</p>
             </div>
 
           </div>
@@ -280,13 +378,13 @@
         <div class="column is-one-third">
           <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
             <div class="card-title">
-              <h4>Membership</h4>
+              <h4>Seeded</h4>
             </div>
             <div class="card-icon">
-                <img src="/images/illustrations/icons/Add.svg">
+                <img src="/images/illustrations/icons/Nature.svg">
             </div>
             <div class="card-text">
-                <p>Similar to registries, this is not a commercial effort. Access is offered carefully. And yes, membership has a cost.</p>
+                <p>In the spirit of the Collaborative, the six Nudges above will be offered to the membership.</p>
             </div>
 
           </div>
@@ -308,10 +406,10 @@
         <div class="column is-one-third">
           <div class="feature-card is-bordered has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
             <div class="card-title">
-              <h4>Give &amp; Get</h4>
+              <h4>Automated Analysis</h4>
             </div>
             <div class="card-icon">
-                <img src="/images/illustrations/icons/Sync.svg">
+                <img src="/images/illustrations/icons/Analytics.svg">
             </div>
             <div class="card-text">
                 <p>Benchmarking requires sharing. Data is yours. It will never be sold. There are no caveats.</p>
@@ -435,7 +533,7 @@
   </div>
 </section>
 
-    <section class="section section-light-grey is-medium">
+    <section class="section section-light-grey is-medium" id="test">
   <div class="container">
     <div class="title-wrapper has-text-centered">
       <h2 class="title is-2 is-spaced">Sign up</h2>
@@ -449,19 +547,22 @@
           <form name="contact" method="POST" netlify>
             <div class="columns is-multiline">
               <div class="column is-6">
-                <input class="input is-medium" type="text" placeholder="Enter your name">
+                <input class="input is-medium" type="text" name="Name" required placeholder="Enter your name">
               </div>
               <div class="column is-6">
-                <input class="input is-medium" type="email" placeholder="Enter your email address">
+                <input class="input is-medium" type="email" name="Email" required placeholder="Enter your email address">
               </div>
               <div class="column is-6">
-                <input class="input is-medium" type="text" placeholder="Your organization">
+                <input class="input is-medium" type="text" name="Organization" required placeholder="Your organization">
               </div>
               <div class="column is-6">
-                <input class="input is-medium" type="text" placeholder="Your role">
+                <input class="input is-medium" type="text" name="Role" placeholder="Your role">
               </div>
               <div class="column is-12">
-                <textarea class="textarea" rows="10" placeholder="We'll reach out to schedule a meeting. Please provide any other specifics that could help us prepare for that. Specfic questions, concerns etc. "></textarea>
+                <input class="input is-medium" type="tel" name="Telephone" placeholder="A number to reach you at">
+              </div>
+              <div class="column is-12">
+                <textarea class="textarea" name="message" rows="10" placeholder="We'll reach out to schedule a meeting. Please provide any other specifics that could help us prepare for that. Specfic questions, concerns etc. "></textarea>
               </div>
               <div class="form-footer has-text-centered mt-10">
                 <button class="button cta is-large primary-btn raised is-clear">Send Message</button>
@@ -504,7 +605,6 @@
             </a>
           </div>
       </div>
-
     </div>
   </div>
 </footer>
@@ -606,7 +706,7 @@
     
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script src="https://unpkg.com/feather-icons"></script>
+
 <script src="/js/fresh.js"></script>
 <script src="/js/jquery.panelslider.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>

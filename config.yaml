@@ -13,11 +13,11 @@ params:
     # Hero subtitle (optional)
     subtitle: Learn. Share. Improve.
     # Button text
-    buttontext: 
+    buttontext: Join Us
     # Where the main hero button links to
-    buttonlink: "#"
+    buttonlink: "#section7"
     # Hero image (from /images/___)
-    image: illustrations/worker.svg
+    image: illustrations/logos.svg
     # Footer logos (from /images/logos/clients/___.svg)
     clientlogos:
     - flu
@@ -28,22 +28,16 @@ params:
     - screening
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Features
-    url: /
-  - title: Pricing
-    url: /
-  - title: Dropdown
-    sublinks:
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-  - title: Log in
-    url: /
-  - title: Sign up
-    url: /
+  - title: Nudges Work
+    url: /#section1
+  - title: Borrow & Adapt
+    url: /#section2
+  - title: The Collaborative
+    url: /#section3
+  - title: The Platform
+    url: /#section4
+  - title: Join Us
+    url: /#section7
     button: true
   sidebar:
     # Logo (from /images/logos/___.svg)
@@ -100,7 +94,7 @@ params:
       buttonText:
     tiles2: 
     - title: Cancer Screening
-      icon: Cancer
+      icon: Colon
       text: Pre-defined Orders <br> Opt-out <br> Peer comparison
       url: /
       buttonText: 
@@ -119,16 +113,16 @@ params:
     subtitle: What if we could share what we've learnt?
     features:
     - title: Showing the ROI
-      text: Implementing a Nudge is more than just an idea. It requires buy-in from multiple stakeholders (executives, division chiefs, physicians, MAs, IT resources, ...). It will need also need a value proposition and more. What if there were templates you could use as a starting point?
+      text: Implementing a Nudge is more than just pitching an idea. It requires buy-in from multiple stakeholders (executives, clinical leaders, IT resources, ...). It will also need a value proposition and more. What if the Collaborative could act as your testbed?
       icon: money
-    - title: Behavioral Economic options
+    - title: Behavioral Economic Options
       text: Opt-in? Opt-out? Peer messaging? Incentives? BE can be challenging. What if we could learn not only from each other but also the leaders in the field?
       icon: Brain
-    - title: Inclusion / Exclusion criteria
-      text: Nudges have to targeted to be effective. Understanding these criteria and coding it can take time (It took the Nudge Unit at Penn almmost a year in some cases). What if these learnings and the actual code developed was available to you as a starting point?
+    - title: Inclusion / Exclusion Criteria
+      text: Nudges have to be targeted to be effective. Understanding these criteria and coding them can take time. It took the Nudge Unit at Penn almmost a year in some cases. What if you could start where Penn left off (and later pay it forward)?
       icon: plus
     - title: Data Extraction and Analysis
-      text: Starting from a blank screen can be daunting. What if, for nudges already researched, you had a working model? Now you can tweak that to fit your patients and physicians and your ask to IT and others is based on what has already worked. 
+      text: What’s the right analysis plan and who can execute it?  What if there were template approaches or ways to hand off your data for others to analyze. 
       icon: Analytics
     # - title: Benchmarking & Research
     #   text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
@@ -137,33 +131,33 @@ params:
     title: The Collaborative
     subtitle: Shared continuous improvement
     tiles:
+    - title: Membership Based
+      icon: Add
+      text: Similar to registries, this is not a commercial effort.
+      url: /
+      buttonText:
+    - title: Community Oriented
+      icon: Network
+      text: Have a question? Running into issues? Ask a peer or an expert in a StackOverflow like environment. 
+      url: /
+      buttonText: 
     - title: Open for Research
       icon: Think
       text: We cannot progess without research. All (de-identified) data is available to credentialled researchers.
       url: /
       buttonText: 
-    - title: Community
-      icon: Network
-      text: Have a question? Running into issues? Ask a peer or an expert in a StackOverflow like environment. 
-      url: /
-      buttonText: 
+    tiles2:
     - title: Seeded
       icon: Nature
       text: In the spirit of the Collaborative, the six Nudges above will be offered to the membership. 
       url: /
-    tiles2:
-    - title: Membership
-      icon: Add
-      text: Similar to registries, this is not a commercial effort. Access is offered carefully. And yes, membership has a cost.
-      url: /
-      buttonText: 
     - title: Benchmarking
       icon: Seo
       text: We are all alike but different. improvement can only come by comparing yourself against better performing peers.
       url: /
       buttonText: 
-    - title: Give & Get
-      icon: Sync
+    - title: Automated Analysis
+      icon: Analytics
       text: Benchmarking requires sharing. Data is yours. It will never be sold. There are no caveats. 
       url: /
       buttonText: 
