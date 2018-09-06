@@ -1,0 +1,251 @@
+baseURL: /
+languageCode: en-us
+title: The Nudge Collaborative
+theme: hugo-fresh-mod
+
+params:
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: The Nudge Collaborative
+    # Hero subtitle (optional)
+    subtitle: Learn. Share. Improve.
+    # Button text
+    buttontext: 
+    # Where the main hero button links to
+    buttonlink: "#"
+    # Hero image (from /images/___)
+    image: illustrations/worker.svg
+    # Footer logos (from /images/logos/clients/___.svg)
+    clientlogos:
+    - flu
+    - Statin
+    - generic
+    - mm
+    - cardiac
+    - screening
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: Features
+    url: /
+  - title: Pricing
+    url: /
+  - title: Dropdown
+    sublinks:
+    - title: Dropdown item
+      url: /
+    - title: Dropdown item
+      url: /
+    - title: Dropdown item
+      url: /
+  - title: Log in
+    url: /
+  - title: Sign up
+    url: /
+    button: true
+  sidebar:
+    # Logo (from /images/logos/___.svg)
+    logo: fresh-square
+    sections:
+    - title: User
+      icon: user
+      links:
+      - text: Profile
+        url: /
+      - text: Account
+        url: /
+      - text: Settings
+        url: /
+    - title: Messages
+      icon: envelope
+      links:
+      - text: Inbox
+        url: /
+      - text: Compose
+        url: /
+    - title: Images
+      icon: image
+      links:
+      - text: Library
+        url: /
+      - text: Upload
+        url: /
+    - title: Settings
+      icon: cog
+      links:
+      - text: User settings
+        url: /
+      - text: App settings
+        url: /
+  section1:
+    title: Nudges Work!
+    subtitle: Results have been impressive
+    tiles:
+    - title: Generic Rx
+      icon: Generic
+      text: Targeting <br> Default to generics <br> Option to prescribe branded
+      url: /
+      buttonText: 
+    - title: Statin Rx
+      icon: Statin
+      text: Targeting <br> Opt-out vs. Opt-in <br> Peer performance
+      url: /
+      buttonText: 
+    - title: Flu Vaccination
+      icon: Syringe
+      text: Patient & Provider Targeting <br> Opt-out <br> Standard of care
+      url: /
+      buttonText:
+    tiles2: 
+    - title: Cancer Screening
+      icon: Cancer
+      text: Pre-defined Orders <br> Opt-out <br> Peer comparison
+      url: /
+      buttonText: 
+    - title: Opioid Rx
+      icon: Pill
+      text: Reduce defaults <br> Peer performance <br> Ongoing Research
+      url: /
+      buttonText:
+    - title: Rehab Referral
+      icon: Referral
+      text: Pre-defined Orders <br> Opt-out <br> Peer comparison
+      url: /
+      buttonText: 
+  section2:
+    title: Why start from scratch?
+    subtitle: What if we could share what we've learnt?
+    features:
+    - title: Showing the ROI - rapid time to value. Less people. Rapid implementation and succes. 
+      text: Implementing a Nudge is more than just an idea. It requires buy-in from multiple stakeholders (executives, division chiefs, physicians, MAs, IT resources, ...). It will need also need a value proposition and more. What if there were templates you could use as a starting point?
+      icon: money
+    - title: Behavioral Economic options
+      text: Opt-in? Opt-out? Peer messaging? Incentives? BE can be challenging. What if we could learn not only from each other but also the leaders in the field?
+      icon: Brain
+    - title: Inclusion / Exclusion criteria - Traslate guidelines into EHR impl. Data Extraction and 
+      text: Nudges have to targeted to be effective. Understanding these criteria and coding it can take time (It took the Nudge Unit at Penn almmost a year in some cases). What if these learnings and the actual code developed was available to you as a starting point?
+      icon: plus
+    - title: Stat Analysis & Reporting
+      text: Starting from a blank screen can be daunting. What if, for nudges already researched, you had a working model? Now you can tweak that to fit your patients and physicians and your ask to IT and others is based on what has already worked. 
+      icon: Analytics
+    # - title: Benchmarking & Research
+    #   text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    #   icon: Seo
+  section3:
+    title: The Collaborative
+    subtitle: Shared continuous improvement
+    tiles:
+    - title: Open for Research
+      icon: Think
+      text: We cannot progess without research. All (de-identified) data is available to credentialled researchers.
+      url: /
+      buttonText: 
+    - title: Community
+      icon: Network
+      text: Have a question? Running into issues? Ask a peer or an expert in a StackOverflow like environment. 
+      url: /
+      buttonText: 
+    - title: Seeded
+      icon: Nature
+      text: In the spirit of the Collaborative, the six Nudges above will be offered to the membership. 
+      url: /
+    tiles2:
+    - title: Membership
+      icon: Add
+      text: Similar to academic Similar to registries, this is not a commercial effort. Access is offered carefully. And yes, membership has a cost.
+      url: /
+      buttonText: 
+    - title: Benchmarking
+      icon: Seo
+      text: We are all alike but different. improvement can only come by comparing yourself against better performing peers.
+      url: /
+      buttonText: 
+    - title: Analysis
+      icon: Performance
+      text: Benchmarking requires sharing. Data is yours. It will never be sold. There are no caveats. 
+      url: /
+      buttonText: 
+  section4: 
+    title: The Platform
+    subtitle: Codifying Shared Knowledge
+    features:
+    - title: Library
+      text: A shared repository of all Nudges - Implemented, Being Researched and Requested/Proposed. For Implemented projects, all aspects of the Nudge are available to download and re-use for members
+      icon: Library
+    - title: Guides & Code
+      text: Guides are available for every aspect of the implementation - pitch, value proposition, physician and other provider ask, IT ask etc. All data extratcion and analysis code will also be available.
+      icon: Compass
+    - title: Open to member researchers
+      text: All member institutions have access to all Nudges (in various states) including currently submitted code and data. The honor system prevails i.e. please do the right thing. 
+      icon: Unlock
+    - title: Benchmarking 
+      text: Members are required to submit benchmarking data. The Collaborative can do anonymization and more for you or you can do it yourself.
+      icon: Performance
+    - title: Contributions welcome 
+      text: Each organization has its own EHR. We welcome, encourage and will actively support any contributions. All code contributions are shared with the community. 
+      icon: OpenSource
+  section5:
+    title: Contact us for a demo
+    subtitle: ICYMI
+    image: illustrations/mockups/mockup.png
+    buttonText: 
+    buttonLink: "#"
+  section6:
+    title: We'e done this better
+    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    clients:
+    - name: Mitesh Patel
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: Accountant
+      img: 1
+    - name: John Bradley
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: Financial Analyst
+      img: 2
+    - name: Gary Blackman
+      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+      job: HR Manager
+      img: 3
+  footer:
+    # Logo (from /images/logos/___)
+    logo: fresh-white-alt.svg
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://pennmedicine.org
+      icon: pennmed.png
+    - link: https://healthcareinnovation.upenn.edu/
+      icon: chci.png
+    - link: https://chibe.upenn.edu/
+      icon: chibe.png
+    - link: https://waytothealth.org
+      icon: waytohealth.png
+    bulmalogo: false
+    product:
+    - text: Discover features
+      link: /
+    - text: Why choose our product?
+      link: /
+    - text: Compare features
+      link: /
+    - text: Our roadmap
+      link: /
+    - text: Request features
+      link: /
+    docs:
+    - text: 
+      link: /
+    - text: User guides
+      link: /
+    - text: Admin guide
+      link: /
+    - text: Developers
+      link: /
+    blogroll:
+    - text: Latest news
+      link: /
+    - text: Tech articles
+      link: /
+    - text: Video blog
+      link: /
