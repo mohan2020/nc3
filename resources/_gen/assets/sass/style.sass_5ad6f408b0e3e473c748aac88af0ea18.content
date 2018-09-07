@@ -6412,7 +6412,7 @@ Hero styles
 Fresh Footer
 ========================================================================== */
 footer.footer-dark {
-  background: #444F60;
+  background: #004e92;
   color: #fff; }
   footer.footer-dark .columns {
     margin-top: 35px; }
