@@ -17,7 +17,7 @@ params:
     # Where the main hero button links to
     buttonlink: "#section7"
     # Hero image (from /images/___)
-    image: illustrations/logos.svg
+    image: illustrations/logos2.svg
     # Footer logos (from /images/logos/clients/___.svg)
     clientlogos:
     - flu
