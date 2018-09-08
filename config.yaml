@@ -36,6 +36,8 @@ params:
     url: /#section3
   - title: Platform Features
     url: /#section4
+  - title: The Team
+    url: /#section6
   - title: Join Us
     url: /#section7
     button: true
@@ -105,7 +107,7 @@ params:
       buttonText:
     - title: Cardiac Rehab Referral
       icon: Referral
-      text: Implement Opt-Out Pathway <br> Being researched
+      text: Implement Opt-Out Pathway <br> Being studied
       url: /
       buttonText: 
   section2:
@@ -117,10 +119,10 @@ params:
       icon: money
     - title: Behavioral Economic Guidance
       text: Don’t have experts in behavioral economics at your institution? Don’t worry, we’ve got you covered. Learn from leaders in the field
-      icon: Brain
+      icon: be
     - title: Translating Guidelines to Implementation
       text: Guidelines are a consensus of evidence and expert opinion, but implementing nudges in health care means these recommendations need to be translated to EHR codes and language. Save time by using the code implemented by your peers and make it better by contributing your work
-      icon: plus
+      icon: impl
     - title: Automated Statistical Analysis
       text: Analyzing clinical data can be complicated and tedious. What if you could upload your data and at the push of a button analyze clinical outcomes and isolate outlier practices or clinicians?
       icon: Analytics
@@ -148,7 +150,7 @@ params:
       buttonText: 
     tiles2:
     - title: Ready to Implement
-      icon: Nature
+      icon: Gift
       text: Not sure where to start? Get codes and guidance on nudges demonstrated to work
       url: /
     - title: Benchmarking
@@ -177,31 +179,39 @@ params:
     - title: Benchmarking 
       text: Members are required to submit benchmarking data. The Collaborative can do anonymization and more for you or you can do it yourself.
       icon: Performance
-    - title: Contributions welcome 
+    - title: Contributions Welcome 
       text: Each organization has its own EHR. We welcome, encourage and will actively support any contributions. All code contributions are shared with the community. 
       icon: OpenSource
   section5:
     title: Contact us for a demo
     subtitle: ICYMI
-    image: illustrations/mockups/mockup.png
+    image: illustrations/mockups/mockup2.png
     buttonText: 
     buttonLink: "#"
   section6:
-    title: Our Clients love us! (6)
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+    title: The Team
+    subtitle: We've launched and grown institutes, units, centers and software companies. 
     clients:
-    - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Accountant
-      img: 1
-    - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
-      img: 2
-    - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
-      img: 3
+    - name: David Asch, MD, MBA
+      quote: David Asch is the executive director of the Penn Medicine Center for Health Care Innovation. He is the John Morgan professor of medicine and medical ethics and health policy at the Perelman School of Medicine, and a professor of health care management and operations, information and decisions at the Wharton School.
+      job: Executive Director, Center for Health Care Innovation
+      img: asch
+      link: https://healthcareinnovation.upenn.edu/bio/david-asch-md-mba
+    - name: Kevin Volpp, MD, PhD
+      quote: Kevin Volpp is the founding director of the Center for Health Incentives and Behavioral Economics at the Leonard Davis Institute (CHIBE) and the Founders President's Distinguished Professor at the Perelman School of Medicine and the Wharton School.  He is also a board-certified practicing physician at the Philadelphia VAMC.
+      job: Founding Director, CHIBE. Co-Director, CHCI
+      img: volpp
+      link: https://healthcareinnovation.upenn.edu/bio/kevin-volpp-md-phd
+    - name: Mohan Balachandran, MA, MS
+      quote: Mohan Balachandran serves as the chief operating officer for the Way to Health platform at the Penn Medicine Center for Health Care Innovation. Before joining Penn, he most recently co-founded Datica to address the two biggest hurdles to innovation in health care−namely, cloud regulatory compliance, and data interoperability. Before founding Datica, he launched Share.md, a physician communication company, and mthSense, a Summer 2012 YCombinator mobile advertising company. 
+      job: Corporate Director, PennMed
+      img: mohan
+      link: https://healthcareinnovation.upenn.edu/bio/mohan-balachandran-ma-ms
+    - name: Mitesh Patel, MD, MBA, MS
+      quote: Mitesh is the director of the Penn Medicine Nudge Unit, a faculty member at the Penn Medicine Center for Health Care Innovation and the Center for Health Incentives and Behavioral Economics, and a staff physician at the Philadelphia VA Medical Center.  Mitesh is also an assistant professor of medicine at the Perelman School of Medicine and an assistant professor of health care management at the Wharton School at the University of Pennsylvania
+      job: Director, Nudge Unit
+      img: mitesh
+      link: https://healthcareinnovation.upenn.edu/bio/mitesh-patel-md-mba-ms
   footer:
     # Logo (from /images/logos/___)
     logo: nc.svg

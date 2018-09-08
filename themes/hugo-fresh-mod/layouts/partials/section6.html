@@ -15,19 +15,29 @@
     <div class="content-wrapper">
       <div class="columns is-vcentered">
         {{- range $clients }}
-        <div class="column is-4">
-          <figure class="testimonial">
-            <blockquote>
-              {{ .quote }}
-            </blockquote>
-            <div class="author">
-              <img src="{{ printf "/images/illustrations/faces/%s.png" (string .img) | relURL }}" alt=""/>
-              <h5>{{ .name }}</h5>
-              <span>{{ .job }}</span>
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image">
+                <img src="{{ printf "/images/illustrations/faces/%s.jpg" (string .img) | relURL }}" alt=""/>
+              </figure>
             </div>
-          </figure>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-5">{{ .name }}</p>
+                  <p class="subtitle is-6">{{ .job }}</p>
+                  <a href="{{ .link }}" target="_blank">Learn More</a>
+                </div>
+              </div>
+<!--               <div class="content">
+                {{ .quote }}
+              </div> -->
+            </div>
+          </div>
         </div>
         {{- end }}
+      </div>
       </div>
     </div>
   </div>
