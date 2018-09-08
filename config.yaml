@@ -197,11 +197,6 @@ params:
       job: Executive Director, Center for Health Care Innovation
       img: asch
       link: https://healthcareinnovation.upenn.edu/bio/david-asch-md-mba
-    - name: Kevin Volpp, MD, PhD
-      quote: Kevin Volpp is the founding director of the Center for Health Incentives and Behavioral Economics at the Leonard Davis Institute (CHIBE) and the Founders President's Distinguished Professor at the Perelman School of Medicine and the Wharton School.  He is also a board-certified practicing physician at the Philadelphia VAMC.
-      job: Founding Director, CHIBE. Co-Director, CHCI
-      img: volpp
-      link: https://healthcareinnovation.upenn.edu/bio/kevin-volpp-md-phd
     - name: Mohan Balachandran, MA, MS
       quote: Mohan Balachandran serves as the chief operating officer for the Way to Health platform at the Penn Medicine Center for Health Care Innovation. Before joining Penn, he most recently co-founded Datica to address the two biggest hurdles to innovation in health care−namely, cloud regulatory compliance, and data interoperability. Before founding Datica, he launched Share.md, a physician communication company, and mthSense, a Summer 2012 YCombinator mobile advertising company. 
       job: Corporate Director, PennMed
@@ -212,6 +207,11 @@ params:
       job: Director, Nudge Unit
       img: mitesh
       link: https://healthcareinnovation.upenn.edu/bio/mitesh-patel-md-mba-ms
+    - name: Kevin Volpp, MD, PhD
+      quote: Kevin Volpp is the founding director of the Center for Health Incentives and Behavioral Economics at the Leonard Davis Institute (CHIBE) and the Founders President's Distinguished Professor at the Perelman School of Medicine and the Wharton School.  He is also a board-certified practicing physician at the Philadelphia VAMC.
+      job: Founding Director, CHIBE. Co-Director, CHCI
+      img: volpp
+      link: https://healthcareinnovation.upenn.edu/bio/kevin-volpp-md-phd
   footer:
     # Logo (from /images/logos/___)
     logo: nc.svg
