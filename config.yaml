@@ -17,7 +17,7 @@ params:
     # Where the main hero button links to
     buttonlink: "#section7"
     # Hero image (from /images/___)
-    image: illustrations/logos2.svg
+    image: illustrations/logos-min.png
     # Footer logos (from /images/logos/clients/___.svg)
     clientlogos:
     - flu
@@ -185,7 +185,7 @@ params:
   section5:
     title: Contact us for a demo
     subtitle: ICYMI
-    image: illustrations/mockups/mockup2.png
+    image: illustrations/mockups/mockup2-min.png
     buttonText: 
     buttonLink: "#"
   section6:
@@ -195,22 +195,22 @@ params:
     - name: David Asch, MD, MBA
       quote: David Asch is the executive director of the Penn Medicine Center for Health Care Innovation. He is the John Morgan professor of medicine and medical ethics and health policy at the Perelman School of Medicine, and a professor of health care management and operations, information and decisions at the Wharton School.
       job: Executive Director, Center for Health Care Innovation
-      img: asch
+      img: asch-min
       link: https://healthcareinnovation.upenn.edu/bio/david-asch-md-mba
     - name: Mohan Balachandran, MA, MS
       quote: Mohan Balachandran serves as the chief operating officer for the Way to Health platform at the Penn Medicine Center for Health Care Innovation. Before joining Penn, he most recently co-founded Datica to address the two biggest hurdles to innovation in health care−namely, cloud regulatory compliance, and data interoperability. Before founding Datica, he launched Share.md, a physician communication company, and mthSense, a Summer 2012 YCombinator mobile advertising company. 
       job: Corporate Director, PennMed
-      img: mohan
+      img: mohan-min
       link: https://healthcareinnovation.upenn.edu/bio/mohan-balachandran-ma-ms
     - name: Mitesh Patel, MD, MBA, MS
       quote: Mitesh is the director of the Penn Medicine Nudge Unit, a faculty member at the Penn Medicine Center for Health Care Innovation and the Center for Health Incentives and Behavioral Economics, and a staff physician at the Philadelphia VA Medical Center.  Mitesh is also an assistant professor of medicine at the Perelman School of Medicine and an assistant professor of health care management at the Wharton School at the University of Pennsylvania
       job: Director, Nudge Unit
-      img: mitesh
+      img: mitesh-min
       link: https://healthcareinnovation.upenn.edu/bio/mitesh-patel-md-mba-ms
     - name: Kevin Volpp, MD, PhD
       quote: Kevin Volpp is the founding director of the Center for Health Incentives and Behavioral Economics at the Leonard Davis Institute (CHIBE) and the Founders President's Distinguished Professor at the Perelman School of Medicine and the Wharton School.  He is also a board-certified practicing physician at the Philadelphia VAMC.
       job: Founding Director, CHIBE. Co-Director, CHCI
-      img: volpp
+      img: volpp-min
       link: https://healthcareinnovation.upenn.edu/bio/kevin-volpp-md-phd
   footer:
     # Logo (from /images/logos/___)
