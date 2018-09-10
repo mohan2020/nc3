@@ -168,7 +168,7 @@ params:
     subtitle: Codifying Shared Knowledge
     features:
     - title: Library
-      text: A growing database of successful and unsuccessful nudges of all types
+      text: A growing database of successful and unsuccessful nudges of all types. For each, get access to all associated evidence based changes made - EHR changes, data extracts, code consolidation, analysis and more. 
       icon: Library
     - title: Guides & Code
       text: Step-by-step guidance on how to implement a nudge from start to finish. Templated pitch decks to get buy-in from a range of audiences including executive leadership and clinicians at the frontlines of care
