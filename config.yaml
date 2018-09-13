@@ -218,15 +218,15 @@ params:
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
     - link: https://pennmedicine.org
-      icon: pennmed.png
-    - link: https://healthcareinnovation.upenn.edu/
-      icon: chci.png
-    - link: https://chibe.upenn.edu/
-      icon: chibe.png
+      icon: pennnn.png
     - link: http://nudgeunit.upenn.edu/
       icon: nudge_logo_0.png
+    - link: https://healthcareinnovation.upenn.edu/
+      icon: chci2.png
+    - link: https://chibe.upenn.edu/
+      icon: chibe2.png
     - link: http://waytohealth.org/
-      icon: waytohealth.png
+      icon: waytohealth2.png
     bulmalogo: false
     product:
     - text: Discover features

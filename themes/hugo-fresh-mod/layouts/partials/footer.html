@@ -5,7 +5,7 @@
 {{- $blogrollLinks:= index $footer "blogroll" }}
 {{- $socialMedia  := index $footer "socialmedia" }}
 {{- $bulmaLogo    := index $footer "bulmalogo" }}
-<footer class="footer" style="background-color: #74b9ff">
+<footer class="footer" style="background-color: #FFF">
   <div class="container">
     <div class="footer-header">
 <!--       <figure>
@@ -17,8 +17,10 @@
         {{- range $socialMedia }}
           <div class="column">
             <a class="level-item" href="{{ .link }}">
-              <span class="icon"><i class="fa fa-{{ .icon }}"></i></span>
+              <!-- <span class="icon"><i class="fa fa-{{ .icon }}"></i></span> -->
+              <figure class="image">
               <img src="/images/logos/{{ .icon }}">
+              </figure>
             </a>
           </div>
         {{- end }}

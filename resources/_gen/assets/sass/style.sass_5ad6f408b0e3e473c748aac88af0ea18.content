@@ -6400,10 +6400,9 @@ Hero styles
   .hero-body .title, .hero-body .subtitle {
     font-family: 'Open Sans', sans-serif; }
   .hero-body .title.is-bold {
-    font-weight: 700;
-    color: #fff; }
+    font-weight: 700; }
   .hero-body .subtitle.is-muted {
-    color: #fff; }
+    color: #999; }
 
 .hero-foot img.partner-logo {
   height: 100px; }

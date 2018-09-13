@@ -11,12 +11,11 @@ Hero styles
     .title {
         &.is-bold {
             font-weight: 700;
-            color: $white;
         }
     }
     .subtitle {
         &.is-muted {
-            color: $white;
+            color: $muted-grey;
         }
     }
 }
