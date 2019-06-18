@@ -9,7 +9,11 @@
     <div class="content-wrapper">
       <div class="columns">
         <div class="column is-6 is-offset-3">
-          <form name="contact" method="POST" netlify>
+          <!-- <form name="contact" method="POST" netlify> -->
+            <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
+                <p style="visibility:hidden;">
+                  <label>Honeypot: <input name="bot-field" /></label>
+                </p>
             <div class="columns is-multiline">
               <div class="column is-6">
                 <input class="input is-medium" type="text" name="Name" required placeholder="Enter your name">
