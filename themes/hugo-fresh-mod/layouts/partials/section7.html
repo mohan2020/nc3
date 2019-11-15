@@ -1,15 +1,19 @@
 <section class="section section-light-grey is-medium" id="section7">
   <div class="container">
     <div class="title-wrapper has-text-centered">
-      <h2 class="title is-2 is-spaced">Join the Collaborative</h2>
-      <h3 class="subtitle is-5 is-muted">Ready to go? Need more info? <br>We'd love to hear from you</h3>
+      <h2 class="title is-2 is-spaced">Stay Informed</h2>
+      <h3 class="subtitle is-5 is-muted">Interested?<br>Sign up and we'll reach out when we launch!</h3>
       <div class="divider is-centered"></div>
     </div>
 
     <div class="content-wrapper">
       <div class="columns">
         <div class="column is-6 is-offset-3">
-          <form name="contact" method="POST" netlify>
+          <!-- <form name="contact" method="POST" netlify> -->
+            <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                <p style="visibility:hidden;">
+                  <label>Honeypot: <input name="bot-field" /></label>
+                </p>
             <div class="columns is-multiline">
               <div class="column is-6">
                 <input class="input is-medium" type="text" name="Name" required placeholder="Enter your name">
@@ -27,7 +31,7 @@
                 <input class="input is-medium" type="tel" name="Telephone" placeholder="A number to reach you at">
               </div>
               <div class="column is-12">
-                <textarea class="textarea" name="message" rows="10" placeholder="What can we help you with? Please provide any information that would be useful and we will follow-up soon to discuss further with you"></textarea>
+                <textarea class="textarea" name="message" rows="10" placeholder="What do you need help with? Please provide any information that would be useful. We'll reach out when the site launches."></textarea>
               </div>
               <div class="form-footer has-text-centered mt-10">
                 <button class="button cta is-large primary-btn raised is-clear">Send Message</button>
